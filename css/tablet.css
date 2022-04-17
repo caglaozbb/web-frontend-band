@@ -1,0 +1,12 @@
+#about p{
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+}
+
+#about div{
+    display: flex;
+    align-items: center;
+    background: #F2BA02;
+    flex-direction: column;
+}

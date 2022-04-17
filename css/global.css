@@ -1,0 +1,80 @@
+/* Text */
+
+.text-center /* class adı*/ {
+    text-align: center;
+}
+
+.p{
+    color: #111111;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+    color: #f0399d;
+}
+.heading-medium{
+    font-size: 1.5rem;
+    color: #f0399d;
+}
+.heading-big-dark{
+    font-size: 1.75rem;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+.heading-big-light{
+    font-size: 1.75rem;
+    color: beige;
+    text-align: center;
+}
+.font-family-brush{
+    font-family: 'Dancing Script', cursive;
+}
+.font-family-open{
+    font-family: 'Open Sans', sans-serif;
+}
+.font-family-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+/* colors */
+.bg-light{
+    background-color: #F2BA02;
+}
+
+.bg-dark-blue{
+    background : #161616;
+}
+
+.bg-light-blue{
+    background: #badfff;
+}
+
+/* container */
+
+.container {
+    max-width:100% ;
+    height: auto;
+    display: flex;
+    flex-direction: row;;
+}
+
+.box{
+    height: auto;
+    padding: 1.5rem;
+}
+
+.btn-primary:hover {
+    color: rgb(252, 144, 216);
+}
+
+.btn-block{
+    display: flex;
+    flex-direction: column;
+    width:  170px;
+    height: 20px;
+    align-items: center;
+    background-color:#F2BA02;
+    padding: 0.2rem;
+    top: 50%;
+    left:50%;
+    justify-content: center;
+}
